@@ -84,6 +84,18 @@ To quit the application:
 1. Click the application to give it focus.
 1. Press `Alt+F4` to exit.
 
+# All in one on Ubuntu 22.04
+
+You can run the following commands to install `kmcaster` on Ubuntu 22.04:
+
+```bash
+sudo apt install openjdk-19-jdk
+mkdir ~/programs
+wget https://github.com/DaveJarvis/kmcaster/releases/latest/download/kmcaster.jar -O ~/programs/kmcaster.jar
+java -jar ~/programs/kmcaster.jar -h    # show usage instructions
+java -jar ~/programs/kmcaster.jar -d 70 # run at 70% of default size
+```
+
 ## Error Messages
 
 Earlier versions of Java will display the following message:
